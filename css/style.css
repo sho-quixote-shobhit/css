@@ -1,21 +1,27 @@
 .container1{
-    background-color: #FCE2DB;
+    
     position: relative;
     padding: 80px 0 0 0;
    
 }
 body{
+    background-color: #FCE2DB;
     margin: 0;
     padding: 0;
     text-align: center;
 }
-#para{
+
+.para{
     margin-bottom: 0;
+    font-size: 1.125rem;
+    color: #FF8FB1;
 }
 h1{
-    margin: 0;
-    font-family: 'Dancing Script', cursive;
+    margin: 100px auto 0 auto;
+    font-family: 'Indie Flower', cursive;
     font-size: 312.5%;
+    /* line-height: 2; */
+    color: #FF8FB1;
 }
 .cloud1{
     position: absolute;
@@ -25,4 +31,15 @@ h1{
 .cloud2{
     position: absolute;
     top: 170px;
+}
+.comp{
+    margin: 100px auto 100px 131px;
+}
+.skillrow{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+p{
+    line-height: 2;
 }
