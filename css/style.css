@@ -1,8 +1,7 @@
-.container1{
-    
+.container1{ 
     position: relative;
-    padding: 80px 0 0 0;
-   
+    padding: 80px 0 0 0;  
+    background-color: #FFB4B4;
 }
 body{
     background-color: #FCE2DB;
@@ -10,18 +9,28 @@ body{
     padding: 0;
     text-align: center;
 }
-
+.profile{
+    margin-top: 30px;
+}
 .para{
     margin-bottom: 0;
     font-size: 1.125rem;
-    color: #FF8FB1;
+    color: #B93160;
+    font-family: 'Philosopher', sans-serif;
 }
 h1{
     margin: 100px auto 0 auto;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Sacramento', cursive;
     font-size: 312.5%;
-    /* line-height: 2; */
-    color: #FF8FB1;
+    color: #B93160;
+}
+h2{
+    color : #B93160;
+    font-family: 'Philosopher', sans-serif;
+}
+h3{
+    color : #B93160;
+    font-family: 'Philosopher', sans-serif;
 }
 .cloud1{
     position: absolute;
@@ -31,15 +40,57 @@ h1{
 .cloud2{
     position: absolute;
     top: 170px;
-}
-.comp{
-    margin: 100px auto 100px 131px;
-}
+    left: 320px;
+}   
 .skillrow{
     width: 50%;
-    margin: auto;
+    margin: 100px auto;
     text-align: left;
-}
-p{
     line-height: 2;
+}
+.comp1{
+    width: 25%;
+    float: left;
+    margin: 0 30px 0 0 ;
+}
+.comp2{
+    width: 25%;
+    float: right;
+}
+.contactme{
+    width: 45%;
+    margin: 0 auto 50px;
+    line-height: 2;
+}
+.btn{
+    background-color: #FF8FB1;
+    padding: 5px;
+    border-radius: 5px;
+    color: blue;
+    text-decoration: none;
+    margin: 0 auto 30px auto;
+    border: 1px solid black;
+}
+hr{
+    width: 5%;
+    border-style: dotted;
+    border-width: 5px 0 0 0;
+    margin: 50px auto ;
+    border-color: grey;
+}
+.container3{
+    padding: 25px 0;
+    background-color: #FF8FB1;
+}
+.foot{
+    margin: 30px auto 0;
+}
+.footer-link{
+    padding: 20px 30px;
+    text-decoration: none;
+    font-family: 'Philosopher', sans-serif;
+}
+.cat{
+    width: 37.375%;
+    height: 22.3125%;
 }
